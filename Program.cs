@@ -6,7 +6,11 @@
         {
             Console.WriteLine("Day 5 Practice Problems ");
             // FlipCoin.FlipTheCoin();
-            LeapYear.CheckLeapYear();
+            Console.WriteLine("Enter the number ");
+            int N = Convert.ToInt32(Console.ReadLine());
+
+            PowerOfTwo.CalculatePowerOfTwo(N);
+           
         }
     }
 }
