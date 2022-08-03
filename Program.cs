@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Day 5 Practice Problems ");
-
+            FlipCoin.FlipTheCoin();
 
         }
     }
