@@ -5,10 +5,10 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Day 5 Practice Problems ");
-           
-            Console.WriteLine("Enter the value of N to get Nth number of Harmonic Series ");
+            Console.WriteLine("Enter the number to calculate it's Prime Factors");
             int N = Convert.ToInt32(Console.ReadLine());
-            HarmonicNumber.HarmonicNum(N);
+
+            PrimeFactors.PrimeFactor(N);
         }
     }
 }
