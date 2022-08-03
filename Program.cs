@@ -5,10 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Day 5 Practice Problems ");
-            Console.WriteLine("Enter the number to calculate it's Prime Factors");
-            int N = Convert.ToInt32(Console.ReadLine());
-
-            PrimeFactors.PrimeFactor(N);
+            Console.WriteLine("Enter the Dividend ");
+            int dividend = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Devisor ");
+            int devisor = Convert.ToInt32(Console.ReadLine());
+            QuotientAndReminder.FindQuotientAndReminder(dividend, devisor);
         }
     }
 }
